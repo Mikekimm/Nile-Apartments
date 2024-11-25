@@ -286,9 +286,13 @@ INSERT INTO `rooms` (`id`, `name`, `area`, `price`, `quantity`, `adult`, `childr
 (1, 'Standard Room', 159, 50, 20, 2, 1, 'A cozy and comfortable room ideal for solo travelers or couples.', 1, 0),
 (2, 'Family Room', 300, 120, 10, 4, 2, 'Spacious room perfect for small families, featuring modern amenities.', 1, 0),
 (3, 'Premium Room', 400, 250, 8, 2, 1, 'Luxurious room with a beautiful view and premium furnishings.', 1, 0),
+<<<<<<< HEAD
 (4, 'Deluxe Suite', 500, 500, 5, 3, 2, 'An exclusive suite offering a spacious layout and high-end facilities.', 1, 0),
 (5, 'Luxury Suite', 600, 750, 3, 4, 3, 'Top-tier suite designed for ultimate comfort, including a private lounge.', 1, 0),
 (6, 'Supreme Deluxe Room', 700, 900, 2, 5, 4, 'The finest experience with unmatched elegance and exceptional services.', 1, 0);
+=======
+(4, 'Deluxe Suite', 500, 50
+>>>>>>> 706fc35 (My commit)
 -- --------------------------------------------------------
 
 --

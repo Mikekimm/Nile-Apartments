@@ -283,13 +283,12 @@ CREATE TABLE `rooms` (
 --
 
 INSERT INTO `rooms` (`id`, `name`, `area`, `price`, `quantity`, `adult`, `children`, `description`, `status`, `removed`) VALUES
-(1, 'simple room', 159, 58, 56, 12, 2, 'asdf asd', 1, 1),
-(2, 'simple room 2', 785, 159, 85, 452, 10, 'adfasdfa sd', 1, 1),
-(3, 'Simple Room', 250, 300, 10, 5, 3, 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos voluptate vero sed tempore illo atque beatae asperiores, adipisci dicta quia nisi voluptates impedit perspiciatis, nobis libero culpa error officiis totam?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos voluptate vero sed tempore illo atque beatae asperiores, adipisci dic', 1, 0),
-(4, 'Deluxe Room', 300, 500, 10, 3, 2, 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos voluptate vero sed tempore illo atque beatae asperiores, adipisci dicta quia nisi voluptates impedit perspiciatis, nobis libero culpa error officiis totam?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos voluptate vero sed tempore illo atque beatae asperiores, adipisci dic', 1, 0),
-(5, 'Luxury Room', 600, 600, 2, 8, 6, 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos voluptate vero sed tempore illo atque beatae asperiores, adipisci dicta quia nisi voluptates impedit perspiciatis, nobis libero culpa error officiis totam?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos voluptate vero sed tempore illo atque beatae asperiores, adipisci dic', 1, 0),
-(6, 'Supreme deluxe room', 500, 900, 12, 9, 10, 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos voluptate vero sed tempore illo atque beatae asperiores, adipisci dicta quia nisi voluptates impedit perspiciatis, nobis libero culpa error officiis totam?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos voluptate vero sed tempore illo atque beatae asperiores, adipisci dic', 1, 0);
-
+(1, 'Standard Room', 159, 50, 20, 2, 1, 'A cozy and comfortable room ideal for solo travelers or couples.', 1, 0),
+(2, 'Family Room', 300, 120, 10, 4, 2, 'Spacious room perfect for small families, featuring modern amenities.', 1, 0),
+(3, 'Premium Room', 400, 250, 8, 2, 1, 'Luxurious room with a beautiful view and premium furnishings.', 1, 0),
+(4, 'Deluxe Suite', 500, 500, 5, 3, 2, 'An exclusive suite offering a spacious layout and high-end facilities.', 1, 0),
+(5, 'Luxury Suite', 600, 750, 3, 4, 3, 'Top-tier suite designed for ultimate comfort, including a private lounge.', 1, 0),
+(6, 'Supreme Deluxe Room', 700, 900, 2, 5, 4, 'The finest experience with unmatched elegance and exceptional services.', 1, 0);
 -- --------------------------------------------------------
 
 --
